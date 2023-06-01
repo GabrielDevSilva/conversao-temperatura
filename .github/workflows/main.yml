@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v4.0.0
         with:
           context: ./
-          path: ./Dockerfile
+          file: ./Dockerfile
           push: true
           tags: |
             biel2802/crud-nestjs:latest
