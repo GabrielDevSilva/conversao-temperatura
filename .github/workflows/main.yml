@@ -9,7 +9,7 @@ env:
   NODE_VERSION: "18.x"
 jobs:
   CI:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       #Criação do ambiente de teste
       - name: Obter o código do repositório
