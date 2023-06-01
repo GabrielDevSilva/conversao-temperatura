@@ -39,5 +39,6 @@ jobs:
           context: ./
           path: ./Dockerfile
           push: true
-          tags: biel2802/crud-nestjs:latest 
+          tags: |
+            biel2802/crud-nestjs:latest
             biel2802/crud-nestjs:v${{ github.run_number }}
